@@ -5,9 +5,6 @@ from django.shortcuts import get_object_or_404, render
 from api.models import Course, Step
 
 
-def index(request):
-    return render(request, 'home.html')
-
 # def course_list(request):
 #     courses = Course.objects.all()
 #     output = ', '.join([str(course) for course in courses])
