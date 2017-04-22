@@ -21,7 +21,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.index, name='index'),
-    url(r'^api/', include("api.urls")),
+    url(r'^api/', include("api.urls", namespace="courses")),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
