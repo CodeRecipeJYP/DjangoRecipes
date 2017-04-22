@@ -1,5 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea
+.idea/
 ### Python template
 db.sqlite3
 # Byte-compiled / optimized / DLL files
