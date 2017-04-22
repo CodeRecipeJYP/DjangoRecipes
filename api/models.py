@@ -30,6 +30,7 @@ class Course(models.Model):
 class Step(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField()
+    content = models.TextField(default="", blank=True)
     order = models.IntegerField(default=0)
     course = models.ForeignKey(Course)
 
